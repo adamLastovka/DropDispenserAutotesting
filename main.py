@@ -47,8 +47,8 @@ dispenser = serial.Serial('COM7', 115200, timeout=1.5)
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    testing_profile_path = 'FirstDrop-2.5Bar-5.xlsx'
-    results_path = r'C:\Users\lasto\OneDrive - University of Waterloo\Desktop\Cornell\DropDispensing\Images\AT-FirstDrop-2.5Bar-5'
+    testing_profile_path = 'TestProfileTemplate.xlsx'
+    results_path = r''
     first_drop = True
 
     repeats = 5  # Repeats per test condition
